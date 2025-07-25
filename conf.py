@@ -16,7 +16,7 @@ EVAL_PATH = DEFAULT_DIR + os.path.sep + 'eval' + os.path.sep + 'BAST' + os.path.
 GPU_LIST = [0]
 
 """Training set"""
-DATA_ENV = 'RI'
+DATA_ENV = 'RI02'
 
 """Hyperparameters"""
 SPECTROGRAM_SIZE = [129, 61]

@@ -1,0 +1,4 @@
+__pycache__
+*.yml
+data/*
+.DS_Store

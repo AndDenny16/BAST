@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from conf import *
 
 
-def load_dataset(env='RI', train=True, azimuth=None, raw_path=None, converted_path=None):
+def load_dataset(env='RI02', train=True, azimuth=None, raw_path=None, converted_path=None):
     """
     This function exists to
         (1) convert the raw sound waves from 'raw_path' to spectrogram if the spectrogram file(s) dose not exist.
@@ -167,7 +167,7 @@ class DataManager:
 
 
 if __name__ == '__main__':
-    x, y = load_dataset('RI', train=False, azimuth=None, raw_path=DATA_DIR, converted_path=CONVERTED_DATA_DIR)
+    x, y = load_dataset('RI02', train=True, azimuth=None, raw_path=DATA_DIR, converted_path=CONVERTED_DATA_DIR)
 
 
 
